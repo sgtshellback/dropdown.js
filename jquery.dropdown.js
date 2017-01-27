@@ -96,7 +96,7 @@
                 $selected = $select.find(":selected").last();
             }
             else {
-                $selected = $select.find("option, li").first();
+               // $selected = $select.find("option, li").first();
                // $selected = $select.find("option").first();
             }
             methods._select($dropdown, $selected);
